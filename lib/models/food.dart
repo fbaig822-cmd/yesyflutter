@@ -7,7 +7,7 @@ class Food {
   final FoodCategory category; //burger
   List<Addon> availableAddons; //[extra cheese, sauce, extra patty]
 
-  Food(required String name, {
+  Food( {
     required this.name,
     required this.description,
     required this.imagePath,
